@@ -1,0 +1,37 @@
+<!-- confirmation.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Conversion Confirmation</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Add any custom styles here */
+        .custom-file-upload {
+            cursor: pointer;
+            background-color: #4a5568;
+            color: #ffffff;
+            border: none;
+            border-radius: 0.25rem;
+            margin-top: 2%;
+            padding: 0.5rem 1rem;
+            transition: background-color 0.3s ease;
+        }
+    
+        .custom-file-upload:hover {
+            background-color: #2d3748;
+        }
+    </style>
+</head>
+<body class="bg-gray-900   ">
+    <div class="bg-gray-900 text-white min-h-screen flex items-center justify-center">
+        <div class="max-w-md w-full p-8 bg-gray-800 shadow-md rounded-lg">
+             <h1 class="text-2xl font-bold mb-4">File Conversion Confirmation</h1>
+            <p>Your file has been successfully converted.</p>
+            <a href="/download" class="inline-block mt-4 px-4 py-2 bg-indigo-500 text-white rounded hover:bg-indigo-600 transition-colors duration-300 ease-in-out">Download Converted File</a>
+            <a href="/" class=" inline-block mt-4 px-4 py-2 bg-indigo-500 text-white rounded hover:bg-indigo-600 transition-colors duration-300 ease-in-out">Convert Again!</a>
+        </div>
+    </div>
+</body>
+</html>
