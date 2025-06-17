@@ -20,7 +20,7 @@ A web application that converts PDF files to DOCX format using Node.js and Pytho
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/iAbhayRajput/pdf-to-docx
 cd Pdf-2-docx
 ```
 
@@ -49,7 +49,7 @@ Pdf-2-docx/
 
 1. Start the server:
 ```bash
-node app8.js
+node app.js
 ```
 
 2. Open your web browser and navigate to `http://localhost:3000`
